@@ -13,3 +13,4 @@ else ()
 endif()
 
 configure_file(${PROJECT_SOURCE_DIR}/sample/sample_field.cnoid.in ${PROJECT_SOURCE_DIR}/sample/sample_field.cnoid @ONLY)
+configure_file(${PROJECT_SOURCE_DIR}/sample/sample_field.yaml.in ${PROJECT_SOURCE_DIR}/sample/sample_field.yaml @ONLY)
